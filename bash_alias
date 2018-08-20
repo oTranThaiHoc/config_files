@@ -1,0 +1,35 @@
+#alias
+alias gb='git branch'
+alias gc='git checkout'
+alias gd='git diff'
+alias gf='git fetch'
+alias gl='git log'
+alias glo='git log --oneline'
+alias gp='git pull'
+alias gs='git status'
+alias j7='export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home; java -version'
+alias j8='export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home; java -version'
+alias j9='export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home; java -version'
+alias la='ls -lha'
+alias ll='ls -lh'
+alias ls='command ls -G'
+alias lsd='ls -l | grep "^d"'
+alias src='cd ~/Work/Source/'
+
+#file and folder
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias du='du -h'
+alias df='df -h'
+#alias l.='ls -d .* --color=auto'
+#alias ls='ls -F --color=auto'
+alias cl='clear'
+
+alias e='exit'
+alias s='sudo'
+alias nnb='nano ~/.bashrc'  #Sửa file alias
+alias rlb='. ~/.bashrc'		#Load lại file alias
+alias h='history'
+alias study='cd /Users/tran.thai.hoc/Study'
+	

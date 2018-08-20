@@ -1,0 +1,27 @@
+Clone git branch from server:
+git clone -b v1.14-st ssh://devgitserver/var/www/git/firmware.git
+
+Switch to a branch:
+git checkout branch_name
+Switch to a new branch:
+git checkout -b branch_name
+
+Update a branch:
+git status --> check status, branch
+git remote show origin --> Diff with origin
+git fetch --> download newest data from origin
+git pull --> update branch
+
+Commit to git server:
+Discard change: git checkout *
+Check available branch: git branch -v -a | grep tsdv
+git branch
+git diff
+git log
+git status
+git commit -a -m "[Web] change display message for uploading file complete.( refs #2338 )"
+git push origin v1.14-tsdv02
+git config --global user.email "hoc.tranthai@toshiba-tsdv.com"
+git config --global user.name "hoctt"
+
+fio --name=test --filename=/dev/sdb --rw=readwrite --bs=4k --runtime=60 --output=testFIO.txt
